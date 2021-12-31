@@ -1,6 +1,9 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
 SETUVAR __fish_initialized:3100
+SETUVAR _fisher_acomagu_2F_fish_2D_async_2D_prompt_files:/Users/sami/\x2econfig/fish/conf\x2ed/__async_prompt\x2efish
+SETUVAR _fisher_jorgebucaran_2F_autopair_2E_fish_files:/Users/sami/\x2econfig/fish/functions/_autopair_backspace\x2efish\x1e/Users/sami/\x2econfig/fish/functions/_autopair_insert_left\x2efish\x1e/Users/sami/\x2econfig/fish/functions/_autopair_insert_right\x2efish\x1e/Users/sami/\x2econfig/fish/functions/_autopair_insert_same\x2efish\x1e/Users/sami/\x2econfig/fish/functions/_autopair_tab\x2efish\x1e/Users/sami/\x2econfig/fish/conf\x2ed/autopair\x2efish
+SETUVAR _fisher_plugins:jorgebucaran/autopair\x2efish\x1eacomagu/fish\x2dasync\x2dprompt
 SETUVAR fish_color_autosuggestion:555\x1ebrblack
 SETUVAR fish_color_cancel:\x2dr
 SETUVAR fish_color_command:005fd7
