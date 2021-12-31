@@ -11,7 +11,7 @@ fish_add_path $HOME/wpff/auto_backup
 
 # abbreviations
 abbr -a -g ag "ag --hidden"
-abbr -a -g commit "git commit --all -m"
+abbr -a -g commit "git commit --all -m \""
 abbr -a -g wpff "ssh web@willprogramforfood.com -p 66"
 abbr -a -g nextcloud "ssh hippo@hipposareevil.com"
 abbr -a -g epoch "perl -le 'print scalar localtime $argv[1]'"
