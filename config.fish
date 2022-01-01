@@ -3,10 +3,10 @@ set BACKUP_ROOT_DIRECTORY $HOME/hippo_bak
 set ICLOUD_DIR $HOME/icloud
 set DOT_FILES $ICLOUD_DIR/tech/dotfiles
 
+fish_add_path ~/bin/
 fish_add_path $DOT_FILES/bin/
 fish_add_path /opt/homebrew/bin
 fish_add_path $HOME/wpff/auto_backup
-
 
 
 # abbreviations
