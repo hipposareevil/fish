@@ -7,7 +7,7 @@ function _tide_item_hippowatch
 
    set -l background_color 00AFFF
    # E4E4E4
-   set -l foreground_up FFFFFF
+   set -l foreground_up 00FF00
    set -l foreground_down FF0000
 
    # find backup directory file
@@ -28,10 +28,10 @@ function _tide_item_hippowatch
        
        if test -e $pid_file
            set -l pid (cat $pid_file)
-           set result (ps -elf | grep $pid | grep -v grep | wc -l)
-           set return_code $status
+           set -l result (ps -elf | grep $pid | grep -v grep | wc -l)
+           set -l return_code $status
 
-           if test "$return_code" -eq 0
+           if test "$return_code" -ne 0
                # backup not running
                set -g tide_hippowatch_bg_color $background_color
                set -g tide_hippowatch_color $foreground_down
