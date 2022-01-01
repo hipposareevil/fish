@@ -1,5 +1,6 @@
 .backup.directory
 fish_plugins
 fish_variables
+conf.d
 *~
 \#*\#
