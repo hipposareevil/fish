@@ -4,6 +4,8 @@ set -x ICLOUD_DIR $HOME/icloud
 set -x DOT_FILES $ICLOUD_DIR/tech/dotfiles
 
 fish_add_path ~/bin/
+fish_add_path ~/bin/photo
+fish_add_path ~/bin/sync
 fish_add_path $DOT_FILES/bin/
 fish_add_path /opt/homebrew/bin
 fish_add_path $HOME/wpff/auto_backup
@@ -16,6 +18,7 @@ abbr -a -g nextcloud "ssh hippo@hipposareevil.com"
 abbr -a -g epoch "perl -le 'print scalar localtime $argv[1]'"
 abbr -a -g rebase "git rebase -i HEAD~"
 abbr -a -g rebase.date "git rebase --ignore-date"
+abbr -a -g lr "ls -lrt"
 
 # prompt
 set tide_right_prompt_items status cmd_duration context jobs node virtual_env kubectl vi_mode hippowatch
